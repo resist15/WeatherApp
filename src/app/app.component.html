@@ -1,4 +1,8 @@
-<div class="search">
+<div class="empty">
+  <h1>Daily Quota Of API Requests Has Ended :( Try Again Tommorow</h1>
+</div>
+
+<div class="search" *ngIf="weatherData">
   <form #form="ngForm" (submit)="onSubmit()">
     <input type="text" placeholder="Search City" name="city" [(ngModel)]="cityName">
   </form>
