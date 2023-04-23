@@ -1,0 +1,27 @@
+.container-2 {
+    padding-top: 20px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-2 img {
+    padding-top: 2px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+.container-2 a::after{
+    color: white;
+    text-decoration: none;
+}
+.container-2 a {
+    color: white;
+    text-decoration: none;
+}
