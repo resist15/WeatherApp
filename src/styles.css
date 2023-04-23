@@ -94,6 +94,8 @@ body {
 .more-info-container {
     flex: 1;
     background-color: var(--shadow-light);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-top: 1em;
@@ -117,10 +119,12 @@ body {
 }
 
 .info-block-label img {
-    width: 1.6em;
+    width: 2.2em;
+    padding-bottom: 10px;
 }
 
 .info-block-label span {
+    text-align: center;
     color: var(--white);
     font-size: 0.8em;
 }
